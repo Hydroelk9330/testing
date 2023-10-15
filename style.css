@@ -1,0 +1,47 @@
+body {
+    background-color: #2a2a2a; /* Dark gray background color */
+    color: #fff; /* Light text color for contrast */
+
+    background-image: url('smm-panel-background.jpg'); /* Replace with your background image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #1a1a1a; /* Slightly darker header background */
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow to the content */
+}
+
+footer {
+    background-color: #1a1a1a; /* Slightly darker footer background */
+    padding: 10px;
+}
